@@ -2,7 +2,11 @@ package com.flatironschool.javacs;
 
 public class HelloWorld {
     public static Double getVersion() {
-        // I won't work!
+       String bop = System.getProperty("java.version");
+        int spot = bop.indexOf('.');
+        spot = bop.indexOf('.', spot+1);
+        double answer = Double.parseDouble (bop.substring (0, spot));
+        return answer; 
     }
 
     public static void main(String[] args) {
