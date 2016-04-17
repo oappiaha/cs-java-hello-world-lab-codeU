@@ -9,7 +9,7 @@ public class HelloWorld {
         return answer; 
     }
 
-    public static void main(String[] args) {
+    //public static void main(String[] args) {
 	    // you can test the output of getVersion() here
-    }
+    //}
 }
